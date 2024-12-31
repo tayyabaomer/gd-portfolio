@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
 import Heading1 from './Heading1';
+import Menu from '../Menu/Menu';
 import {headingTop} from '../../content';
 import { Circle, VerticleArrow } from '../SVGS/Svg';
 
@@ -9,6 +10,7 @@ import { Circle, VerticleArrow } from '../SVGS/Svg';
 function Header() {
   return (
     <>
+      <Menu />
       <header className="banner">
         {/* Navigation Bar */}
         <Navbar />
@@ -25,6 +27,7 @@ function Header() {
           <p>Scroll</p>
           <VerticleArrow />
         </div>
+        
       </header>
     </>
   )

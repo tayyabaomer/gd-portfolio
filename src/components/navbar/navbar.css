@@ -32,9 +32,10 @@
 }
   
 
-.menu{
+.menu-icon {
     /* background-color: aqua; */
     display: inline-block;
+    cursor: pointer;
 }
 
 /* nav { */
@@ -57,4 +58,8 @@ nav ul li h2 {
     text-transform: uppercase;
     font-weight: 400;
     color: #333;
+}
+
+.menuContainer {
+  display: none;
 }
